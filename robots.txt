@@ -1,0 +1,87 @@
+#User-agent: *
+#Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: MS Search 4.0 Robot
+Disallow: /
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+#nur alle 30 Sekunden (Yahoo! Slurp, msnbot)
+User-agent: msnbot
+Crawl-delay: 30
+
+User-agent: Yahoo!
+Crawl-delay: 30
+
+User-agent: Slurp
+Crawl-delay: 30
+
+User-agent: *
+Crawl-delay: 10
+Disallow: /cdarchiv/*
+Disallow: /counter/*
+Disallow: /content/*
+Disallow: /contentserver/*
+Disallow: /cms/*
+Disallow: /GDZ/*
+Disallow: /gdztools/*
+Disallow: /downloadGDZ/*
+Disallow: /download/*
+Disallow: /no_cache/*
+Disallow: /fileadmin/*
+Disallow: /pdfwriter/*
+Disallow: /samples/*
+Disallow: /t3lib/*
+Disallow: /typo3/*
+Disallow: /typo3conf/*
+Disallow: /typo3temp/*
+Disallow: /uploads/*
+Disallow: /webalizer*/*
+Disallow: /webimg/*
+Disallow: /mets_export.php
+Disallow: /no_cache/*
+Disallow: /dms/load/img*
+Disallow: /de/dms/load/img*
+Disallow: /en/dms/load/img/*
+Disallow: /dms/loader/*
+Disallow: /de/dms/loader/*
+Disallow: /en/dms/loader/*
+Disallow: /dms/load/dfgv*
+Disallow: /de/dms/load/dfgv*
+Disallow: /en/dms/load/dfgv/*
+Disallow: /dms/loader/dfgv/*
+Disallow: /tiff/*
+Disallow: /tools*
+Disallow: /pdf*
+
+#DigiWubu
+Disallow: /ddms/*
+Disallow: /de/ddms/*
+Disallow: /en/ddms/*
+
+#RusDML
+Disallow: /rdms/*
+Disallow: /de/rdms/*
+Disallow: /en/rdms/*
+Disallow: /ru/*
+
+
+
+
+#Altlasten
+Disallow: /sub/*
+Disallow: /cgi-bin/*
+Disallow: /digibib/*
+Disallow: /search-entry.shtml
+Disallow: /cache/*
+Disallow: /dieper/*
+Disallow: /tecup/*
+Disallow: /index.var
+
